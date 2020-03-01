@@ -1,0 +1,348 @@
+{
+  "auth": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "Welcome@123",
+      "fullname":"Admin",
+      "user_designation": "CEO",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "username": "rahul",
+      "password": "Rahul@123",
+      "fullname":"Rahul",
+      "user_designation": "React Developer",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "username": "kevin",
+      "password": "Welcome@123",
+      "fullname":"Kevin",
+      "user_designation": "Business Analyst",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "username": "neha",
+      "password": "Welcome@123",
+      "fullname":"Neha",
+      "user_designation": "Project Manager",
+      "status": "Active"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "project": {
+    "client": [
+      {
+        "name": "Montefiore Hospital",
+        "total": 5,
+        "projects": 
+{
+  "set1":[
+          {
+            "id": "1",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "name": "Azure Plateform A",
+            "owner": "john doe",
+            "member": 18,
+            "follower": 4,
+            "start_date": "Jan 21",
+            "end_date": "Mar 20",
+            "priority": "High"
+          },
+          {
+            "id": "2",
+            "status_color":"#F5A623",
+            "name": "Azure Plateform B",
+            "owner": "john doe",
+            "member": 20,
+            "follower": 6,
+            "start_date": "Feb 10",
+            "end_date": "Mar 22",
+            "priority": "High"
+          },
+          {
+            "id": "3",
+            "status": "Done",
+            "status_color":"#F5A623",
+            "name": "Azure Plateform C",
+            "owner": "john doe",
+            "member": 30,
+            "follower": 8,
+            "start_date": "Jan 20",
+            "end_date": "Mar 10",
+            "priority": "High"
+          }],
+          "set2":[  {
+            "id": "4",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "name": "Azure Plateform D",
+            "owner": "john doe",
+            "member": 10,
+            "follower": 2,
+            "start_date": "Jan 29",
+            "end_date": "Feb 18",
+            "priority": "High"
+          },{
+            "id": "5",
+            "status": "Done",
+            "status_color":"#F5A623",
+            "name": "Azure Plateform E",
+            "owner": "john doe",
+            "member": 20,
+            "follower": 6,
+            "start_date": "Feb 10",
+            "end_date": "Mar 22",
+            "priority": "High"
+          }]
+        }
+      },
+      {
+        "name": "White Level Hospital",
+        "total": 4,
+        "projects": 
+{
+  "set1":[
+          {
+            "id": "6",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "name": "White Level Hospital A",
+            "owner": "john doe",
+            "member": 18,
+            "follower": 4,
+            "start_date": "Jan 21",
+            "end_date": "Mar 20",
+            "priority": "High"
+          },
+          {
+            "id": "7",
+            "status": "Done",
+            "status_color":"#F5A623",
+            "name": "White Level Hospital B",
+            "owner": "john doe",
+            "member": 20,
+            "follower": 6,
+            "start_date": "Feb 10",
+            "end_date": "Mar 22",
+            "priority": "High"
+          },
+          {
+            "id": "8",
+            "status": "Done",
+            "status_color":"#F5A623",
+            "name": "White Level Hospital C",
+            "owner": "john doe",
+            "member": 30,
+            "follower": 8,
+            "start_date": "Jan 20",
+            "end_date": "Mar 10",
+            "priority": "High"
+          }],
+          "set2":[  {
+            "id": "9",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "name": "Azure Plateform D",
+            "owner": "john doe",
+            "member": 10,
+            "follower": 2,
+            "start_date": "Jan 29",
+            "end_date": "Feb 18",
+            "priority": "High"
+          }]
+        }
+      },
+      {
+        "name": "Community Hospital",
+        "total": 4,
+        "projects": 
+{
+  "set1":[
+          {
+            "id": "10",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "name": "Community Hospital A",
+            "owner": "john doe",
+            "member": 18,
+            "follower": 4,
+            "start_date": "Jan 21",
+            "end_date": "Mar 20",
+            "priority": "High"
+          },
+          {
+            "id": "11",
+            "status": "Done",
+            "status_color":"#F5A623",
+            "name": "Community Hospital B",
+            "owner": "john doe",
+            "member": 20,
+            "follower": 6,
+            "start_date": "Feb 10",
+            "end_date": "Mar 22",
+            "priority": "High"
+          },
+          {
+            "id": "12",
+            "status": "Done",
+            "status_color":"#F5A623",
+            "name": "Community Hospital C",
+            "owner": "john doe",
+            "member": 30,
+            "follower": 8,
+            "start_date": "Jan 20",
+            "end_date": "Mar 10",
+            "priority": "High"
+          }],
+          "set2":[  {
+            "id": "13",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "name": "Community Hospital D",
+            "owner": "john doe",
+            "member": 10,
+            "follower": 2,
+            "start_date": "Jan 29",
+            "end_date": "Feb 18",
+            "priority": "High"
+          }]
+        }
+      }
+    ]
+  },
+  "projectdetails": {
+    "client": [
+      {
+        "name": "Project Forms",
+        "total": 4,
+        "projects": 
+{
+  "set1":[
+          {
+
+            "id": "1",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "task_name": "Efficacy",
+            "assigned_name": "john Doe",
+            "priority": "High",
+            "timeline": "Feb 17 - Mar 12",
+            "member": 6,
+            "items": 5
+            
+          },
+          {
+            "id": "2",
+             "status": "Done",
+            "status_color":"#12AB6B",
+            "task_name": "Efficiency",
+            "assigned_name": "John Smith",
+            "priority": "High",
+            "timeline": "Feb 10 - Mar 12",
+            "member": 8,
+            "items": 2
+          },
+          {
+            "id": "3",
+            "status": "On Hold",
+            "status_color":"#12AB6B",
+            "task_name": "Budget",
+            "assigned_name": "Nancy",
+            "priority": "High",
+            "timeline": "Feb 21 - Apr 12",
+            "member": 9,
+            "items": 6
+          },
+        {
+            "id": "3",
+            "status": "Done",
+            "status_color":"#12AB6B",
+            "task_name": "TCO",
+            "assigned_name": "Smith",
+            "priority": "High",
+            "timeline": "Feb 12 - Jun 12",
+            "member": 4,
+            "items": 4
+          }]
+        }
+      },
+      {
+        "name": "Old Forms",
+        "total": 2,
+        "projects": 
+{
+  "set1":[
+          {
+            "id": "5",
+          "status": "Done",
+            "status_color":"#12AB6B",
+            "task_name": "Efficacy",
+            "assigned_name": "Smith Doe",
+            "priority": "High",
+            "timeline": "Feb 17 - Mar 12",
+            "member": 6,
+            "items": 4
+          },
+          {
+            "id": "6",
+             "status": "Done",
+            "status_color":"#12AB6B",
+            "task_name": "Efficiency",
+            "assigned_name": "john Doe",
+            "priority": "High",
+            "timeline": "Feb 21 - Apr 12",
+            "member": 5,
+            "items": 3
+          }]
+         
+        }
+      }
+
+    ]
+  },
+  "projecttimeline":{
+    "current_day":"18",
+    "running_task":[
+      {
+      "name":"task one",
+      "start_day":10,
+      "end_day":22,
+      "status":"internalLineO"
+      },
+      {
+      "name":"task two",
+      "start_day":8,
+      "end_day":25,
+      "status":"internalLineO"
+      },
+      {
+      "name":"task three",
+      "start_day":1,
+      "end_day":16,
+      "status":"internalLineG"
+      },
+      {
+      "name":"task four",
+      "start_day":4,
+      "end_day":15,
+      "status":"internalLineR"
+      }
+    ]
+  }
+
+}
